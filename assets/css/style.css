@@ -1,19 +1,5 @@
-.container {
-    height: 100vh;
-    background: url("../images/monkees.jpg") no-repeat bottom right fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    font-weight: bolder;
-}
 
 
 
-header {
-   
-    font:bold;
-    opacity:none;
-}
 
 
