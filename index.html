@@ -9,20 +9,23 @@
   <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
   <link rel="stylesheet" type="text/css" href="jquery.fancybox.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Anton&display=swap" rel="stylesheet">
   <title>The Monkees Official Website</title>
 </head>
 
 <body>
   <header>
-    <article class="container">
+    
+    <div class="container">
       <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="index.html"><strong>The Monkees</strong></a>
+        <a class="navbar-brand" href="index.html"><img src="assets/images/cover2.png" width="200" height="60" alt="">
+        </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
+          <span class="navbar-toggler-icon"></span>
+        </button>
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
           <div class="navbar-nav">
-            
+
             <a class="nav-item nav-link" href="about.html">About</a>
             <a class="nav-item nav-link" href="music.html">Music</a>
             <a class="nav-item nav-link" href="gallery.html">Gallery</a>
@@ -32,23 +35,29 @@
           </div>
         </div>
       </nav>
-      &nbsp;
+    </div>  
+      
+  </header> 
+  &nbsp;
+      
       <!--callout-->
-      <section class="callout">
+  
+  <section class="callout">
 
-        <p class="lead"><strong>New Tour Dates Annouced!</strong>&nbsp;<button type="button" class="btn btn-success">Buy Tickets Now!</button></p>
+    <p class="lead"><strong>New Tour Dates Annouced!</strong></p>
+    <a target="_blank" href="https://www.ticketmaster.ie/"><button type="button" class="btn btn-success">Buy Tickets Now!</button></a>
 
-      </section>
-  </header>
+  </section>
+  
   <!--/callout-->
   <hr>
 
   <!--new music-->
   <section class="new-music">
     <h2>New Release</h2>
-    <iframe src="https://open.spotify.com/embed/track/3G7tRC24Uh09Hmp1KZ7LQ2" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/xvqeSJlgaNk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-
+    <a href="music.html">Listen to More Music Here</a>
   </section>
 
   <hr>
@@ -63,20 +72,18 @@
       <tbody>
         <tr>
           <th scope="row">15/6/2019</th>
-          <td>3 Arena, Dublin &nbsp; <button type="button" class="btn btn-success">Buy Tickets Now!</button></td>
+          <td>3 Arena, Dublin&nbsp;<a target="_blank" href="https://www.ticketmaster.ie/"><button type="button" class="btn btn-success">Buy Tickets Now!</button></a></td>
 
 
         </tr>
         <tr>
           <th scope="row">17/6/2019</th>
-          <td>Roisin Dubh, Galway &nbsp; <button type="button" class="btn btn-success">Buy Tickets Now! </button></td>
-
+          <td>Roisin Dubh, Galway&nbsp;<a target="_blank" href="https://www.ticketmaster.ie/"><button type="button" class="btn btn-success">Buy Tickets Now!</button></a></td>
 
         </tr>
         <tr>
           <th scope="row">21/6/2019</th>
-          <td colspan="2">Voodoo Lounge, Letterkenny &nbsp; <button type="button" class="btn btn-success">Buy Tickets Now!</button></td>
-
+          <td>Voodoo Lounge, Letterkenny&nbsp;<a target="_blank" href="https://www.ticketmaster.ie/"><button type="button" class="btn btn-success">Buy Tickets Now!</button></a></td>
         </tr>
       </tbody>
     </table>
@@ -97,7 +104,7 @@
 
 
 
-  </article>
+  
 
   <section>
 
@@ -107,29 +114,35 @@
       <h5 class="uppercase general-sub">Social</h5>
       <ul class="list-inline social-links">
         <li class="list-inline-item">
-          <a target="_blank" href="#">
-                            <i class="fab fa-facebook" aria-hidden="true"></i>
-                            <span class="sr-only">Facebook</span>
-                        </a>
+          <a target="_blank" href="https://www.facebook.com/TheMonkees/">
+              <i class="fab fa-facebook" aria-hidden="true"></i>
+              <span class="sr-only">Facebook</span>
+          </a>
         </li>
         <li class="list-inline-item">
-          <a target="_blank" href="#">
-                            <i class="fab fa-twitter-square" aria-hidden="true"></i>
-                            <span class="sr-only">Twitter</span>
-                        </a>
+          <a target="_blank" href="https://twitter.com/themonkees?lang=en">
+            <i class="fab fa-twitter-square" aria-hidden="true"></i>
+            <span class="sr-only">Twitter</span>
+          </a>
         </li>
 
 
         <li class="list-inline-item">
-          <a target="_blank" href="#">
-                            <i class="fab fa-instagram" aria-hidden="true"></i>
+          <a target="_blank" href="https://www.instagram.com/themonkees/?hl=en">
+            <i class="fab fa-instagram" aria-hidden="true"></i>
                             <span class="sr-only">Instagram</span>
                         </a>
         </li>
         <li class="list-inline-item">
-          <a target="_blank" href="#">
+          <a target="_blank" href="https://www.youtube.com/user/themonkees">
                             <i class="fab fa-youtube-square" aria-hidden="true"></i>
                             <span class="sr-only">YouTube</span>
+                        </a>
+        </li>
+        <li class="list-inline-item">
+          <a target="_blank" href="https://open.spotify.com/artist/320EPCSEezHt1rtbfwH6Ck">
+                            <i class="fab fa-spotify" aria-hidden="true"></i>
+                            <span class="sr-only">Spotify</span>
                         </a>
         </li>
       </ul>
@@ -139,7 +152,9 @@
 
   </footer>
   <script src="//code.jquery.com/jquery-3.2.1.min.js"></script>
-	<script src="jquery.fancybox.min.js"></script>
+  <script src="jquery.fancybox.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 </body>
 
 </html>
